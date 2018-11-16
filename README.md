@@ -5,7 +5,7 @@ Steps to use:
 2) Open your terminal in that same folder and type: <b>python conversion.py -i yourfilename.obj -o yourfilename.js -b</b> <br>
 3) Just substitute <b>yourfilename</b> with the name of you file<br>
 
-<script src='https://threejs.org/examples/js/loaders/AssimpJSONLoader.js'></script><br>
+<script src="https://threejs.org/examples/js/loaders/AssimpJSONLoader.js"></script><br>
 var loader = new THREE.JSONLoader();<br>
 loader.load('yourfilename.js', function (geometry, materials) {<br>
     var matt = new THREE.MeshLambertMaterial( { vertexColors: THREE.FaceColors, side: THREE.DoubleSide } );<br>
